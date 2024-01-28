@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkpoint>
+   <description></description>
+   <name>Checkpoint</name>
+   <tag></tag>
+   <source-info>
+      <is-from-test-data>true</is-from-test-data>
+      <source-url>Data Files/Test_Data/Amazon_Validate_SearchItems_TestData</source-url>
+   </source-info>
+   <taken-date>2024-01-26T05:42:52.46+05:30</taken-date>
+   <column-names>
+      <column-name>Table -1</column-name>
+   </column-names>
+   <checkpoint-data><![CDATA[[
+  [
+    {
+      "value": "Test case ID",
+      "checked": false
+    },
+    {
+      "value": "Test Data/Input Data",
+      "checked": false
+    },
+    {
+      "value": "Expected Values",
+      "checked": false
+    }
+  ],
+  [
+    {
+      "value": "TC_Amazon_ValidateSearchFieldItem_002",
+      "checked": false
+    },
+    {
+      "value": "Books,Da vinci code",
+      "checked": false
+    },
+    {
+      "value": "Books category should be selected and items related to  Da vinci code should be displayed",
+      "checked": false
+    }
+  ],
+  [
+    {
+      "value": "TC_Amazon_ValidateSearchFieldItem_002",
+      "checked": true
+    },
+    {
+      "value": "Electronics, Mobile phones",
+      "checked": false
+    },
+    {
+      "value": "Electronics category should be selected and items related to Mobile phones should be displayed",
+      "checked": false
+    }
+  ],
+  [
+    {
+      "value": "TC_Amazon_ValidateSearchFieldItem_002",
+      "checked": false
+    },
+    {
+      "value": "Home appliances, Washine machine",
+      "checked": false
+    },
+    {
+      "value": "Home appliances category should be selected and items related to washine machine should be displayed",
+      "checked": false
+    }
+  ],
+  [
+    {
+      "value": "TC_Amazon_ValidateSearchFieldItem_002",
+      "checked": false
+    },
+    {
+      "value": "Furniture, Wooden tables",
+      "checked": false
+    },
+    {
+      "value": "Furniture category should be selected and items related to Wooden tables should be displayed",
+      "checked": false
+    }
+  ],
+  [
+    {
+      "value": "TC_Amazon_ValidateSearchFieldItem_002",
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    }
+  ],
+  [
+    {
+      "value": "",
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    }
+  ],
+  [
+    {
+      "value": "",
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    }
+  ],
+  [
+    {
+      "value": "",
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    }
+  ],
+  [
+    {
+      "value": "",
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    }
+  ]
+]]]></checkpoint-data>
+</checkpoint>
