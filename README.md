@@ -68,3 +68,6 @@ iv. Test data preparation (in the form of Validation Table) as per baseline docu
 
 ![121](https://github.com/Faishal0786/Software-Testing-Automation-With-Katalon-1/assets/141898542/85455bd0-7944-41b1-84f6-973cd4e8f631)
 
+# Project Explanation Video Recording 
+Link:
+https://drive.google.com/file/d/1Cp5WltJtqSuAlPlHve0Ut3fIGXJB_QgE/view?usp=drive_link
