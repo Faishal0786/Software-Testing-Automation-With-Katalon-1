@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Amazon_TestSuite_Login_001" time="6.505" tests="0" failures="0" errors="0">
+   <testsuite name="Amazon_TestSuite_Login_001" tests="0" failures="0" errors="0" time="6.505" skipped="0" timestamp="28-01-2024T05:00:24" hostname="faish - 192.168.1.5" id="Test Suites/Amazon_TestSuite/Amazon_TestSuite_Login_001">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\faish\\OneDrive\\Desktop\\Software Automation Testing With Katalon\\Reports\\20240128_050017\\Amazon_TestSuite\\Amazon_TestSuite_Login_001\\20240128_050017"/>
+         <property name="logFiles" value="C:\\Users\\faish\\OneDrive\\Desktop\\Software Automation Testing With Katalon\\Reports\\20240128_050017\\Amazon_TestSuite\\Amazon_TestSuite_Login_001\\20240128_050017\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="faish - 192.168.1.5"/>
+         <property name="hostAddress" value="192.168.1.5"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.2.0.212"/>
+      </properties>
+      <system-out><![CDATA[28-01-2024T05:00:24 - [TEST_SUITE][PASSED] - Amazon_TestSuite_Login_001: null]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

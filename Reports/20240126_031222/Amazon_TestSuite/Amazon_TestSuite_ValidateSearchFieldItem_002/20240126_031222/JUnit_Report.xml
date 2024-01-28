@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Amazon_TestSuite_ValidateSearchFieldItem_002" time="42.981" tests="1" failures="0" errors="0">
+   <testsuite name="Amazon_TestSuite_ValidateSearchFieldItem_002" tests="1" failures="0" errors="0" time="42.981" skipped="0" timestamp="26-01-2024T03:12:29" hostname="faish - 192.168.1.5" id="Test Suites/Amazon_TestSuite/Amazon_TestSuite_ValidateSearchFieldItem_002">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\faish\\Katalon Studio\\Software Automation Testing With Katalon\\Reports\\20240126_031222\\Amazon_TestSuite\\Amazon_TestSuite_ValidateSearchFieldItem_002\\20240126_031222"/>
+         <property name="logFiles" value="C:\\Users\\faish\\Katalon Studio\\Software Automation Testing With Katalon\\Reports\\20240126_031222\\Amazon_TestSuite\\Amazon_TestSuite_ValidateSearchFieldItem_002\\20240126_031222\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="faish - 192.168.1.5"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.2.0.212"/>
+         <property name="browser" value="Edge Chromium 120"/>
+         <property name="hostAddress" value="192.168.1.5"/>
+         <property name="sessionId" value="1958b8476f49cd1f3925fad6dda67dc7"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Amazon/TC_Amazon_ValidateSearchFieldItem_002" time="42.745" classname="Test Cases/Amazon/TC_Amazon_ValidateSearchFieldItem_002" status="PASSED">
+         <system-out><![CDATA[26-01-2024T03:12:29 - [TEST_CASE][PASSED] - Test Cases/Amazon/TC_Amazon_ValidateSearchFieldItem_002: Test Cases/Amazon/TC_Amazon_ValidateSearchFieldItem_002
+
+26-01-2024T03:12:29 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+26-01-2024T03:12:30 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+26-01-2024T03:12:30 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-01-2024T03:12:31 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+26-01-2024T03:12:31 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.com/"): Navigate to 'https://www.amazon.com/' successfully
+
+26-01-2024T03:12:36 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.com/' successfully
+
+26-01-2024T03:12:36 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92"), "search-alias=stripbooks-intl-ship", true): All options with value 'search-alias=stripbooks-intl-ship' are selected in object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92'  using regular expression
+
+26-01-2024T03:12:39 - [MESSAGE][PASSED] - All options with value 'search-alias=stripbooks-intl-ship' are selected in object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92'  using regular expression
+
+26-01-2024T03:12:39 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_field-keywords"), "da vinci code"): Text 'da vinci code' is set on object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_field-keywords'
+
+26-01-2024T03:12:40 - [MESSAGE][PASSED] - Text 'da vinci code' is set on object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_field-keywords'
+
+26-01-2024T03:12:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_nav-search-submit-button")): Object: 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_nav-search-submit-button' is clicked on
+
+26-01-2024T03:12:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_nav-search-submit-button' is clicked on
+
+26-01-2024T03:12:43 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Amazon.com  da vinci code/select_All Departments        Arts  Crafts _135c92"), "search-alias=electronics-intl-ship", true): All options with value 'search-alias=electronics-intl-ship' are selected in object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Amazon.com  da vinci code/select_All Departments        Arts  Crafts _135c92'  using regular expression
+
+26-01-2024T03:12:46 - [MESSAGE][PASSED] - All options with value 'search-alias=electronics-intl-ship' are selected in object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Amazon.com  da vinci code/select_All Departments        Arts  Crafts _135c92'  using regular expression
+
+26-01-2024T03:12:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Amazon.com  da vinci code/input_Search Amazon_field-keywords"), "Mobile phones"): Text 'Mobile phones' is set on object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Amazon.com  da vinci code/input_Search Amazon_field-keywords'
+
+26-01-2024T03:12:47 - [MESSAGE][PASSED] - Text 'Mobile phones' is set on object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Amazon.com  da vinci code/input_Search Amazon_field-keywords'
+
+26-01-2024T03:12:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Amazon.com  da vinci code/input_Search Amazon_nav-search-submit-button")): Object: 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Amazon.com  da vinci code/input_Search Amazon_nav-search-submit-button' is clicked on
+
+26-01-2024T03:12:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Amazon.com  da vinci code/input_Search Amazon_nav-search-submit-button' is clicked on
+
+26-01-2024T03:12:54 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Amazon.com  Mobile phones/select_Electronics        All Departments  _28d51a"), "search-alias=aps", true): All options with value 'search-alias=aps' are selected in object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Amazon.com  Mobile phones/select_Electronics        All Departments  _28d51a'  using regular expression
+
+26-01-2024T03:12:57 - [MESSAGE][PASSED] - All options with value 'search-alias=aps' are selected in object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Amazon.com  Mobile phones/select_Electronics        All Departments  _28d51a'  using regular expression
+
+26-01-2024T03:12:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Amazon.com  Mobile phones/input_Search Amazon_field-keywords"), "Washing Machines"): Text 'Washing Machines' is set on object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Amazon.com  Mobile phones/input_Search Amazon_field-keywords'
+
+26-01-2024T03:12:58 - [MESSAGE][PASSED] - Text 'Washing Machines' is set on object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Amazon.com  Mobile phones/input_Search Amazon_field-keywords'
+
+26-01-2024T03:12:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Amazon.com  Mobile phones/input_Search Amazon_nav-search-submit-button")): Object: 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Amazon.com  Mobile phones/input_Search Amazon_nav-search-submit-button' is clicked on
+
+26-01-2024T03:13:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Amazon.com  Mobile phones/input_Search Amazon_nav-search-submit-button' is clicked on
+
+26-01-2024T03:13:04 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Amazon.com  Washing Machines/input_Search Amazon_field-keywords"), "Wooden Tables"): Text 'Wooden Tables' is set on object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Amazon.com  Washing Machines/input_Search Amazon_field-keywords'
+
+26-01-2024T03:13:06 - [MESSAGE][PASSED] - Text 'Wooden Tables' is set on object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Amazon.com  Washing Machines/input_Search Amazon_field-keywords'
+
+26-01-2024T03:13:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Amazon.com  Washing Machines/input_Search Amazon_nav-search-submit-button")): Object: 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Amazon.com  Washing Machines/input_Search Amazon_nav-search-submit-button' is clicked on
+
+26-01-2024T03:13:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Amazon.com  Washing Machines/input_Search Amazon_nav-search-submit-button' is clicked on
+
+26-01-2024T03:13:11 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+26-01-2024T03:13:12 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[26-01-2024T03:12:29 - [TEST_SUITE][PASSED] - Amazon_TestSuite_ValidateSearchFieldItem_002: Test Cases/Amazon/TC_Amazon_ValidateSearchFieldItem_002]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

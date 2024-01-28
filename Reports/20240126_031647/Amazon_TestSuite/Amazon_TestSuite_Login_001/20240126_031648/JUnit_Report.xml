@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Amazon_TestSuite_Login_001" time="17.542" tests="1" failures="0" errors="0">
+   <testsuite name="Amazon_TestSuite_Login_001" tests="1" failures="0" errors="0" time="17.542" skipped="0" timestamp="26-01-2024T03:16:56" hostname="faish - 192.168.1.5" id="Test Suites/Amazon_TestSuite/Amazon_TestSuite_Login_001">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\faish\\Katalon Studio\\Software Automation Testing With Katalon\\Reports\\20240126_031647\\Amazon_TestSuite\\Amazon_TestSuite_Login_001\\20240126_031648"/>
+         <property name="logFiles" value="C:\\Users\\faish\\Katalon Studio\\Software Automation Testing With Katalon\\Reports\\20240126_031647\\Amazon_TestSuite\\Amazon_TestSuite_Login_001\\20240126_031648\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="faish - 192.168.1.5"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.2.0.212"/>
+         <property name="browser" value="Chrome 121.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.5"/>
+         <property name="sessionId" value="291a48880c137e82f903b1fb8626a469"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Amazon/TC_Amazon_Login_001" time="17.331" classname="Test Cases/Amazon/TC_Amazon_Login_001" status="PASSED">
+         <system-out><![CDATA[26-01-2024T03:16:56 - [TEST_CASE][PASSED] - Test Cases/Amazon/TC_Amazon_Login_001: Test Cases/Amazon/TC_Amazon_Login_001
+
+26-01-2024T03:16:56 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+26-01-2024T03:16:57 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+26-01-2024T03:16:57 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-01-2024T03:16:59 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+26-01-2024T03:16:59 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.com/"): Navigate to 'https://www.amazon.com/' successfully
+
+26-01-2024T03:17:03 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.com/' successfully
+
+26-01-2024T03:17:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_Login_OR/Page_Amazon.com. Spend less. Smile more/span_Sign in")): Object: 'Object Repository/Amazon_Login_OR/Page_Amazon.com. Spend less. Smile more/span_Sign in' is clicked on
+
+26-01-2024T03:17:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_Login_OR/Page_Amazon.com. Spend less. Smile more/span_Sign in' is clicked on
+
+26-01-2024T03:17:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Amazon_Login_OR/Page_Amazon Sign-In/input_Email or mobile phone number_email"), "9912667488"): Text '9912667488' is set on object 'Object Repository/Amazon_Login_OR/Page_Amazon Sign-In/input_Email or mobile phone number_email'
+
+26-01-2024T03:17:09 - [MESSAGE][PASSED] - Text '9912667488' is set on object 'Object Repository/Amazon_Login_OR/Page_Amazon Sign-In/input_Email or mobile phone number_email'
+
+26-01-2024T03:17:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_Login_OR/Page_Amazon Sign-In/input_Enter your email or mobile phone numb_fc7402")): Object: 'Object Repository/Amazon_Login_OR/Page_Amazon Sign-In/input_Enter your email or mobile phone numb_fc7402' is clicked on
+
+26-01-2024T03:17:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_Login_OR/Page_Amazon Sign-In/input_Enter your email or mobile phone numb_fc7402' is clicked on
+
+26-01-2024T03:17:11 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Amazon_Login_OR/Page_Amazon Sign-In/input_Forgot your password_password"), "WLLQQNs5EWZLJLX2thenaj8G2Ax0LCa1"): Text ****** has been set on object 'Object Repository/Amazon_Login_OR/Page_Amazon Sign-In/input_Forgot your password_password'
+
+26-01-2024T03:17:13 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Amazon_Login_OR/Page_Amazon Sign-In/input_Forgot your password_password'
+
+26-01-2024T03:17:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_Login_OR/Page_Amazon Sign-In/input_Enter your password_signInSubmit")): Object: 'Object Repository/Amazon_Login_OR/Page_Amazon Sign-In/input_Enter your password_signInSubmit' is clicked on
+
+26-01-2024T03:17:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_Login_OR/Page_Amazon Sign-In/input_Enter your password_signInSubmit' is clicked on
+
+26-01-2024T03:17:13 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+26-01-2024T03:17:13 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[26-01-2024T03:16:56 - [TEST_SUITE][PASSED] - Amazon_TestSuite_Login_001: Test Cases/Amazon/TC_Amazon_Login_001]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Amazon_TestSuite_Login_001,Edge Chromium 121,,,28-01-2024 03:22:28,28-01-2024 03:22:49,20.888s,PASSED
+,,,,,,,
+Test Cases/Amazon/TC_Amazon_Login_001,Edge Chromium 121,,,28-01-2024 03:22:29,28-01-2024 03:22:49,20.389s,PASSED
+Start setup action : setupTestCase,Edge Chromium 121,,,28-01-2024 03:22:29,28-01-2024 03:22:29,0.002s,PASSED
+"openBrowser("""")",Edge Chromium 121,,,28-01-2024 03:22:29,28-01-2024 03:22:34,4.623s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Edge Chromium 121,,,28-01-2024 03:22:34,28-01-2024 03:22:38,4.590s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Login_OR/Page_Amazon.com. Spend less. Smile more/span_Sign in""))",Edge Chromium 121,,,28-01-2024 03:22:38,28-01-2024 03:22:42,4.089s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_Login_OR/Page_Amazon Sign-In/input_Email or mobile phone number_email""), ""9912667488"")",Edge Chromium 121,,,28-01-2024 03:22:42,28-01-2024 03:22:44,1.337s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Login_OR/Page_Amazon Sign-In/input_Enter your email or mobile phone numb_fc7402""))",Edge Chromium 121,,,28-01-2024 03:22:44,28-01-2024 03:22:46,2.572s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Amazon_Login_OR/Page_Amazon Sign-In/input_Forgot your password_password""), ""WLLQQNs5EWZLJLX2thenaj8G2Ax0LCa1"")",Edge Chromium 121,,,28-01-2024 03:22:46,28-01-2024 03:22:47,0.646s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Login_OR/Page_Amazon Sign-In/input_Enter your password_signInSubmit""))",Edge Chromium 121,,,28-01-2024 03:22:47,28-01-2024 03:22:47,0.428s,PASSED
+closeBrowser(),Edge Chromium 121,,,28-01-2024 03:22:47,28-01-2024 03:22:49,1.919s,PASSED
+Start tear down : tearDownTestCase,Edge Chromium 121,,,28-01-2024 03:22:49,28-01-2024 03:22:49,0.002s,PASSED

@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Amazon_TestSuite_ValidateSearchFieldItem_002,Chrome 121.0.0.0,,,26-01-2024 03:19:02,26-01-2024 03:20:07,1m - 5.130s,PASSED
+,,,,,,,
+Test Cases/Amazon/TC_Amazon_ValidateSearchFieldItem_002,Chrome 121.0.0.0,,,26-01-2024 03:19:02,26-01-2024 03:20:07,1m - 4.913s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,26-01-2024 03:19:02,26-01-2024 03:19:04,1.867s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 121.0.0.0,,,26-01-2024 03:19:04,26-01-2024 03:19:08,3.722s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92""), ""search-alias=stripbooks-intl-ship"", true)",Chrome 121.0.0.0,,,26-01-2024 03:19:08,26-01-2024 03:19:11,3.091s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_field-keywords""), ""da vinci code"")",Chrome 121.0.0.0,,,26-01-2024 03:19:11,26-01-2024 03:19:13,1.989s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_nav-search-submit-button""))",Chrome 121.0.0.0,,,26-01-2024 03:19:13,26-01-2024 03:19:20,7.693s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Amazon.com  da vinci code/select_All Departments        Arts  Crafts _135c92""), ""search-alias=electronics-intl-ship"", true)",Chrome 121.0.0.0,,,26-01-2024 03:19:20,26-01-2024 03:19:23,2.832s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Amazon.com  da vinci code/input_Search Amazon_field-keywords""), ""Mobile phones"")",Chrome 121.0.0.0,,,26-01-2024 03:19:23,26-01-2024 03:19:25,1.413s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Amazon.com  da vinci code/input_Search Amazon_nav-search-submit-button""))",Chrome 121.0.0.0,,,26-01-2024 03:19:25,26-01-2024 03:19:45,20.588s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Amazon.com  Mobile phones/select_Electronics        All Departments  _28d51a""), ""search-alias=aps"", true)",Chrome 121.0.0.0,,,26-01-2024 03:19:45,26-01-2024 03:19:50,4.290s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Amazon.com  Mobile phones/input_Search Amazon_field-keywords""), ""Washing Machines"")",Chrome 121.0.0.0,,,26-01-2024 03:19:50,26-01-2024 03:19:52,2.315s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Amazon.com  Mobile phones/input_Search Amazon_nav-search-submit-button""))",Chrome 121.0.0.0,,,26-01-2024 03:19:52,26-01-2024 03:19:58,6.355s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Amazon.com  Washing Machines/input_Search Amazon_field-keywords""), ""Wooden Tables"")",Chrome 121.0.0.0,,,26-01-2024 03:19:58,26-01-2024 03:20:01,2.551s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Amazon.com  Washing Machines/input_Search Amazon_nav-search-submit-button""))",Chrome 121.0.0.0,,,26-01-2024 03:20:01,26-01-2024 03:20:06,5.543s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,26-01-2024 03:20:06,26-01-2024 03:20:07,0.350s,PASSED

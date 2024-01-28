@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Amazon_TestSuite_Login_001,Chrome 121.0.0.0,,,28-01-2024 05:08:50,28-01-2024 05:09:17,26.994s,PASSED
+,,,,,,,
+Test Cases/Amazon/TC_Amazon_Login_001,Chrome 121.0.0.0,,,28-01-2024 05:08:58,28-01-2024 05:09:17,19.749s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,28-01-2024 05:08:58,28-01-2024 05:08:59,1.110s,PASSED
+Start setup action : setupTestCase,Chrome 121.0.0.0,,,28-01-2024 05:08:59,28-01-2024 05:09:03,4.446s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,28-01-2024 05:09:03,28-01-2024 05:09:05,1.173s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 121.0.0.0,,,28-01-2024 05:09:05,28-01-2024 05:09:08,3.379s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Login_OR/Page_Amazon.com. Spend less. Smile more/span_Sign in""))",Chrome 121.0.0.0,,,28-01-2024 05:09:08,28-01-2024 05:09:12,4.076s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_Login_OR/Page_Amazon Sign-In/input_Email or mobile phone number_email""), ""9912667488"")",Chrome 121.0.0.0,,,28-01-2024 05:09:12,28-01-2024 05:09:14,1.522s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Login_OR/Page_Amazon Sign-In/input_Enter your email or mobile phone numb_fc7402""))",Chrome 121.0.0.0,,,28-01-2024 05:09:14,28-01-2024 05:09:16,2.142s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Amazon_Login_OR/Page_Amazon Sign-In/input_Forgot your password_password""), ""WLLQQNs5EWZLJLX2thenaj8G2Ax0LCa1"")",Chrome 121.0.0.0,,,28-01-2024 05:09:16,28-01-2024 05:09:17,0.976s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Login_OR/Page_Amazon Sign-In/input_Enter your password_signInSubmit""))",Chrome 121.0.0.0,,,28-01-2024 05:09:17,28-01-2024 05:09:17,0.493s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,28-01-2024 05:09:17,28-01-2024 05:09:17,0.276s,PASSED
+Start tear down : tearDownTestCase,Chrome 121.0.0.0,,,28-01-2024 05:09:17,28-01-2024 05:09:17,0.008s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,28-01-2024 05:09:17,28-01-2024 05:09:17,0.008s,PASSED
